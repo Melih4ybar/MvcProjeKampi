@@ -6,26 +6,17 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
-    public class HomeController : Controller
+    public class TestController : Controller
     {
+        // GET: Test
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Test2()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
     }
 }
